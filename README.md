@@ -100,13 +100,6 @@ the MCP connection. In Claude Code both copies load side by side (the
 plugin's are named `hypaware:hypaware-query` and so on), so nothing is
 overwritten.
 
-## Self-hosted servers
-
-This plugin connects to the hosted server only. For a self-hosted HypAware
-server, configure your client by hand from
-[the MCP guide](https://github.com/hyparam/hypaware/blob/master/docs/MCP.md),
-using your server's base URL followed by `/v1/mcp`.
-
 ## The MCP Registry entry
 
 `registry/server.json` lists two ways to run the server:
